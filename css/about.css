@@ -1,0 +1,146 @@
+body {
+    /* background-color: #ece8e1; */
+    background-image: url(img/27601.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 979px;
+}
+
+
+
+.color{
+    background-color: #111111;
+}
+
+
+ul.navbar-nav > li > a {
+    line-height: 100px;
+}
+
+.navbar-brand {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-item{
+   text-transform: uppercase ;
+   font-size: larger; 
+   margin-left: 10px;
+}
+.navbar-nav .active{
+    border-bottom: 1px solid #FF4655;
+}
+
+.navbar-nav{
+    margin-bottom: 0px;
+  
+}
+
+.uk-navbar-right{
+    height: 80px;
+}
+
+
+
+.uk-icon {
+   width: 90px;
+   height: 80px;
+    margin-right: 30px;
+}
+
+.uk-search-icon{
+    height: 30px;
+    width: 30px;
+    color: #666;
+}
+
+.uk-search-icon svg{
+    height: 30px;
+    width: 30px;
+}
+
+.uk-link-toggle:focus .uk-link, .uk-link-toggle:hover .uk-link, .uk-link:hover, a:hover {
+    color: #FF4655;
+}   
+
+.nav-link{
+    padding: 1.5rem 1rem;
+
+}
+
+
+
+h1{
+    text-align: center;
+}
+.welcome {
+    text-align: center;
+    padding: 12px;
+    margin-left: 300px;
+    margin-right: 300px;
+    line-height: 0px;
+    border: 1px solid black;
+    background-color: #ece8e1;
+}
+.welcome a {
+font-size: 25px;
+line-height: 10px;
+}
+
+.welcome h4 a{
+    color: black;
+}
+
+.welcome h4 a:hover{
+    color: #ff4655;
+    text-decoration: none;
+}
+.welcome h1{
+    font-weight: bold;
+}
+
+.row {
+    margin-top: 50px;
+    padding: 30px;
+    border: 1px solid black;
+    background-color: #ece8e1;
+}
+.row h1{
+    margin-top: 148px;
+    font-weight: bold;
+}
+.col p {
+    font-style: italic;
+}
+
+.uk-container{
+    margin-top: 50px;
+}
+
+
+.search-bar{
+    box-sizing: border-box;
+    margin: 0;
+    border-radius: 0;
+    font: inherit;
+    overflow: visible;
+    -webkit-appearance: none;
+    vertical-align: middle;
+    width: 100%;
+    border: none;
+    color: #666;
+    height: 40px;
+    background: 0 0;
+    font-size: 1.5rem;
+    position: relative;
+}
+#item{
+    background-color: #111111;
+    border: 1px solid black;
+    color: #666;
+}
+*:focus{
+    outline: none;
+}
+
